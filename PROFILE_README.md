@@ -78,12 +78,12 @@ I am an **Artificial Intelligence & Data Science Engineering** student passionat
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=omkar333333&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="Omkar's GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omkar333333&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=omkar333333&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="Omkar's GitHub Stats" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=omkar333333&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=omkar333333&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=omkar333333&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 </div>
 
