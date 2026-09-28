@@ -289,8 +289,7 @@ Potential enhancements include:
 * Cross Validation
 * Feature Importance Analysis
 * Model Explainability using SHAP
-* Streamlit Deployment
-* REST API Integration
+* Web Deployment & REST API
 * Real-Time Prediction Dashboard
 * Cloud Deployment
 

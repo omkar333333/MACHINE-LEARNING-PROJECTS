@@ -198,7 +198,7 @@ Student-Final-Grade-Prediction/
 * Random Forest Regression
 * Feature Engineering
 * Flask Web Application
-* Streamlit Dashboard
+* Interactive Web Dashboard
 * Model Comparison
 
 ---

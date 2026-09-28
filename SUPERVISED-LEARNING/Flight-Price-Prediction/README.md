@@ -458,7 +458,7 @@ This project can be improved by
 - XGBoost
 - Hyperparameter Tuning
 - Feature Scaling
-- Streamlit Web App
+- Interactive Web Dashboard
 - Flask Deployment
 - Model Comparison
 - Real-time Flight API Integration
