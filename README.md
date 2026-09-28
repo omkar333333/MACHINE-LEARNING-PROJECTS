@@ -6,17 +6,14 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-EB5424?style=for-the-badge)](https://xgboost.readthedocs.io/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-  <a href="#-interactive-web-application-streamlit"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" height="28" alt="Streamlit App" /></a>
   <a href="https://github.com/omkar333333"><img src="https://img.shields.io/badge/Status-Open_for_Internships-brightgreen?style=for-the-badge" height="28" /></a>
 </p>
 
 <p align="center">
-  <a href="#-interactive-web-application-streamlit">⚡ Live Interactive App</a> •
   <a href="#-projects-matrix">📊 Project Matrix</a> •
   <a href="#-visual-insights--evaluations">📈 Visual Insights</a> •
   <a href="#-quickstart--installation">🚀 Quickstart</a> •
@@ -34,8 +31,7 @@
 > - **Key Performance Metrics**:
 >   - 🩺 **Diabetes Diagnostic Prediction**: **96.4% Cross-Validation Accuracy** on 20,000+ records.
 >   - ✈️ **Flight Ticket Price Prediction**: **$R^2 = 0.76$** on 15,000+ airline flight entries.
->   - 🛍️ **Customer Segmentation**: **$k=5$ Silhouette-Optimized Clusters** identifying distinct spending personas.
-> - **Production Readiness**: Includes an interactive **Streamlit Web Application (`app.py`)** with Plotly radial gauges, side-by-side benchmark arena, batch CSV upload, and modular architecture.
+> - **Engineering Rigor**: Modular pipelines, cross-validation, reproducible Jupyter notebooks, and clean data preprocessing standards.
 > - **Direct Contact**: [GitHub Profile](https://github.com/omkar333333) • [Contact Email](mailto:your-email@example.com)
 
 ---
@@ -48,26 +44,7 @@ Each project adheres to rigorous data science principles:
 * **Exploratory Data Analysis (EDA)** with distribution profiling and correlation matrix analysis.
 * **Feature Engineering & Transformation** (handling class imbalance, outlier clipping, standard scaling, and categorical encoding).
 * **Model Training & Evaluation** (Random Forest, XGBoost, Logistic Regression, Decision Trees, K-Means Clustering, PCA, and t-SNE).
-* **Interactive Deployment** via a unified Streamlit dashboard (`app.py`).
-
----
-
-## ⚡ Interactive Web Application (Streamlit)
-
-This repository includes a multi-model Streamlit application (`app.py`) allowing instant, in-browser model testing with interactive parameter tuning.
-
-```bash
-# Launch the interactive web app locally
-streamlit run app.py
-```
-
-Features included in the web app:
-* 🩺 **Clinical Diagnostics & What-If Simulator**: Real-time patient risk assessment with Plotly radial gauges and dynamic biomarker sensitivity adjustments (+10% glucose, +15% BMI).
-* 📂 **Batch CSV Patient Scoring & Export**: Upload multi-patient clinical CSV records, run instant batch classification, and download timestamped scored CSV files.
-* ⚔️ **Model Benchmark Arena**: Real-time side-by-side evaluation of Logistic Regression, Decision Tree, Random Forest, and KNN across Accuracy, Precision, Recall, and F1-Score with interactive Plotly grouped bar charts and confusion matrices.
-* ✈️ **Flight Ticket Price Forecaster**: Multivariate regression predicting domestic flight fares in Indian Rupees (₹ INR) based on carrier, route, stops, and duration.
-* 🛍️ **Customer Segmentation Explorer**: Interactive K-Means clustering with dynamic $k$ slider and 2D centroid scatter projection.
-* 🔬 **Interactive EDA & Feature Lab**: Live distribution histograms, Pearson correlation heatmaps, and outlier boxplots.
+* **Comprehensive Documentation & Notebooks** with step-by-step visual analytics and metrics.
 
 ---
 
@@ -130,12 +107,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Run the Streamlit Application
-```bash
-streamlit run app.py
-```
-
-### 5. Or Explore Jupyter Notebooks
+### 4. Explore Jupyter Notebooks
 ```bash
 jupyter notebook
 ```
@@ -188,7 +160,6 @@ MACHINE-LEARNING-PROJECTS/
 │   ├── customer_clusters.png
 │   └── diabetes_feature_importance.png
 │
-├── app.py                     # Interactive Streamlit Web Portfolio Application
 ├── requirements.txt           # Unified dependencies
 └── README.md                  # Master repository documentation
 ```

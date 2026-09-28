@@ -11,7 +11,6 @@
 
 <p align="center">
   <a href="https://github.com/omkar333333"><img src="https://img.shields.io/badge/Status-Open_to_Internships_&_Roles-brightgreen?style=for-the-badge" /></a>
-  <a href="https://github.com/omkar333333/MACHINE-LEARNING-PROJECTS"><img src="https://img.shields.io/badge/⚡_Live_App-Streamlit_Suite-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /></a>
   <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-Direct_Contact-blue?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
@@ -22,8 +21,8 @@
 > [!TIP]
 > ### 🎯 Recruiter Elevator Pitch (15-Second Overview)
 > **Omkar Mote** is an AI & Data Science Engineering student specializing in building production-grade Machine Learning workflows.
-> - **Core Stack**: Python, Scikit-Learn, XGBoost, Pandas, SQL, Streamlit, Flask, Plotly.
-> - **Featured Delivery**: Full-featured Machine Learning suite with interactive diagnostic risk gauges, what-if sensitivity simulators, and batch prediction.
+> - **Core Stack**: Python, Scikit-Learn, XGBoost, Pandas, NumPy, SQL, Flask.
+> - **Featured Delivery**: End-to-end Machine Learning pipelines with cross-validation, feature engineering, and high-accuracy predictive models.
 > - **Key Highlights**:
 >   - 🩺 **Healthcare Diagnostics**: 96.4% cross-validation accuracy on clinical risk classification.
 >   - ✈️ **Multivariate Regression**: Real-world flight fare prediction engine ($R^2 = 0.76$).
@@ -36,7 +35,7 @@
 
 I am an **Artificial Intelligence & Data Science Engineering** student passionate about turning raw data into high-value intelligent applications. My development and research focus centers around exploratory data analysis, predictive statistical modeling, supervised classification/regression, clustering, and building interactive web deployment interfaces.
 
-- 🔭 **Current Focus**: End-to-end Machine Learning pipelines, model evaluation, and deployment with Streamlit and Flask.
+- 🔭 **Current Focus**: End-to-end Machine Learning pipelines, exploratory data analysis, and scalable Python workflows.
 - 🧠 **Key Interests**: Predictive Modeling, Anomaly Detection, Customer Segmentation, and Exploratory Data Analysis.
 - 💡 **Core Strengths**: Clean Data Preprocessing, Algorithm Optimization, Clean Code Standards.
 - 🎨 **Creative Outlets**: Digital art, character design, and manga illustration.
@@ -67,7 +66,6 @@ I am an **Artificial Intelligence & Data Science Engineering** student passionat
 
 #### ⚙️ Developer Tools & Deployment
 <p align="left">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
   <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" />
@@ -82,7 +80,7 @@ I am an **Artificial Intelligence & Data Science Engineering** student passionat
 
 | Project | Description | Stack | Link |
 | :--- | :--- | :--- | :--- |
-| **🤖 Machine Learning Suite** | Comprehensive portfolio with interactive Streamlit app covering Diabetes Risk, Fraud Detection (XGBoost), Flight Pricing, and Customer Clustering. | `Python` `Scikit-Learn` `Streamlit` `XGBoost` | [View Repo](https://github.com/omkar333333/MACHINE-LEARNING-PROJECTS) |
+| **🤖 Machine Learning Suite** | Curated repository of supervised & unsupervised learning models covering Diabetes Risk, Fraud Detection (XGBoost), Flight Pricing, and Customer Segmentation. | `Python` `Scikit-Learn` `Pandas` `XGBoost` | [View Repo](https://github.com/omkar333333/MACHINE-LEARNING-PROJECTS) |
 | **🎥 AI Video Compression Platform** | High-performance Flask app leveraging NVIDIA NVENC GPU acceleration for rapid video size reduction with minimal visual quality loss. | `Python` `Flask` `FFmpeg` `NVENC` | [View Repo](https://github.com/omkar333333/AI-Powered_Video_Compression_Platform) |
 | **🤝 SharedSpace Platform** | Full-stack peer-to-peer resource sharing, item lending, and community booking platform with trust scoring. | `Python` `Flask` `SQLAlchemy` `Render` | [View Repo](https://github.com/omkar333333/sharedspace) |
 | **🔐 Encrypted Bluetooth File Transfer** | Secure peer-to-peer data transmission across Bluetooth devices featuring cryptographic security layers. | `Python` `Sockets` `Cryptography` | [View Repo](https://github.com/omkar333333/encrypted-bluetooth-file-transfer) |
