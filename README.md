@@ -36,7 +36,7 @@
 >   - ✈️ **Flight Ticket Price Prediction**: **$R^2 = 0.76$** on 15,000+ airline flight entries.
 >   - 🛍️ **Customer Segmentation**: **$k=5$ Silhouette-Optimized Clusters** identifying distinct spending personas.
 > - **Production Readiness**: Includes an interactive **Streamlit Web Application (`app.py`)** with Plotly radial gauges, side-by-side benchmark arena, batch CSV upload, and modular architecture.
-> - **Direct Contact**: [GitHub Profile](https://github.com/omkar333333) • [Live Portfolio Website](https://omkar-portfolio-live.vercel.app)
+> - **Direct Contact**: [GitHub Profile](https://github.com/omkar333333) • [Contact Email](mailto:your-email@example.com)
 
 ---
 
@@ -202,7 +202,6 @@ MACHINE-LEARNING-PROJECTS/
 📍 Balewadi, Pune, India  
 
 * 🌐 **GitHub**: [@omkar333333](https://github.com/omkar333333)
-* 💼 **Portfolio**: [omkar-portfolio-live](https://github.com/omkar333333/omkar-portfolio-live)
 
 ---
 

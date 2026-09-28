@@ -92,7 +92,6 @@ with st.sidebar:
     st.markdown("📍 *Balewadi, Pune, India*")
     
     st.markdown("""
-    [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-0A66C2?style=flat&logo=vercel)](https://omkar-portfolio-live.vercel.app)
     [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/omkar333333)
     [![Repo](https://img.shields.io/badge/Repo-MACHINE--LEARNING--PROJECTS-blue?style=flat&logo=github)](https://github.com/omkar333333/MACHINE-LEARNING-PROJECTS)
     """)
@@ -169,7 +168,7 @@ with st.expander("👔 Recruiter & Technical Interviewer Fast-Track Guide (Click
         - **Degree**: B.E. in Artificial Intelligence & Data Science (Pune, India)
         - **Core Stack**: Python, Pandas, Scikit-Learn, XGBoost, Streamlit, SQL, Plotly
         - **Status**: Actively seeking AI/ML Internships & Data Science roles
-        - **Portfolio**: [omkar-portfolio-live.vercel.app](https://omkar-portfolio-live.vercel.app)
+        - **GitHub**: [github.com/omkar333333](https://github.com/omkar333333)
         """)
     with col_r2:
         st.markdown("""
