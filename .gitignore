@@ -16,3 +16,7 @@ ENV/
 .vscode/
 .idea/
 *.swp
+
+# Temporary directories
+.temp_*/
+.temp_sharedspace/
