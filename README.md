@@ -11,6 +11,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <p align="center">
+  <a href="#-interactive-web-application-streamlit"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" height="28" alt="Streamlit App" /></a>
+  <a href="https://github.com/omkar333333"><img src="https://img.shields.io/badge/Status-Open_for_Internships-brightgreen?style=for-the-badge" height="28" /></a>
+</p>
+
+<p align="center">
   <a href="#-interactive-web-application-streamlit">⚡ Live Interactive App</a> •
   <a href="#-projects-matrix">📊 Project Matrix</a> •
   <a href="#-visual-insights--evaluations">📈 Visual Insights</a> •
@@ -19,6 +24,19 @@
 </p>
 
 </div>
+
+---
+
+> [!TIP]
+> ### 📌 Recruiter & Hiring Manager Quick Summary (TL;DR)
+> - **Candidate**: **Omkar Mote** — *B.E. in Artificial Intelligence & Data Science* (Balewadi, Pune, India)
+> - **Core Competencies**: Supervised Classification & Regression, Unsupervised Clustering, Gradient Boosting (XGBoost), Sensitivity & "What-If" Modeling, Interactive Deployment.
+> - **Key Performance Metrics**:
+>   - 🩺 **Diabetes Diagnostic Prediction**: **96.4% Cross-Validation Accuracy** on 20,000+ records.
+>   - ✈️ **Flight Ticket Price Prediction**: **$R^2 = 0.76$** on 15,000+ airline flight entries.
+>   - 🛍️ **Customer Segmentation**: **$k=5$ Silhouette-Optimized Clusters** identifying distinct spending personas.
+> - **Production Readiness**: Includes an interactive **Streamlit Web Application (`app.py`)** with Plotly radial gauges, side-by-side benchmark arena, batch CSV upload, and modular architecture.
+> - **Direct Contact**: [GitHub Profile](https://github.com/omkar333333) • [Live Portfolio Website](https://omkar-portfolio-live.vercel.app)
 
 ---
 
@@ -44,9 +62,12 @@ streamlit run app.py
 ```
 
 Features included in the web app:
-* 🩺 **Diabetes Diagnostic Risk Predictor**: Real-time patient risk assessment with dynamic risk gauge and feature importance inspection.
-* 🛍️ **Customer Segmentation Explorer**: Interactive K-Means clustering with adjustable $k$ slider and 2D centroid scatter projection.
-* 🎓 **Academic Pass/Fail Predictor**: Standardized logistic regression testing student engagement metrics.
+* 🩺 **Clinical Diagnostics & What-If Simulator**: Real-time patient risk assessment with Plotly radial gauges and dynamic biomarker sensitivity adjustments (+10% glucose, +15% BMI).
+* 📂 **Batch CSV Patient Scoring & Export**: Upload multi-patient clinical CSV records, run instant batch classification, and download timestamped scored CSV files.
+* ⚔️ **Model Benchmark Arena**: Real-time side-by-side evaluation of Logistic Regression, Decision Tree, Random Forest, and KNN across Accuracy, Precision, Recall, and F1-Score with interactive Plotly grouped bar charts and confusion matrices.
+* ✈️ **Flight Ticket Price Forecaster**: Multivariate regression predicting domestic flight fares in Indian Rupees (₹ INR) based on carrier, route, stops, and duration.
+* 🛍️ **Customer Segmentation Explorer**: Interactive K-Means clustering with dynamic $k$ slider and 2D centroid scatter projection.
+* 🔬 **Interactive EDA & Feature Lab**: Live distribution histograms, Pearson correlation heatmaps, and outlier boxplots.
 
 ---
 

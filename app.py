@@ -92,6 +92,7 @@ with st.sidebar:
     st.markdown("📍 *Balewadi, Pune, India*")
     
     st.markdown("""
+    [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-0A66C2?style=flat&logo=vercel)](https://omkar-portfolio-live.vercel.app)
     [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/omkar333333)
     [![Repo](https://img.shields.io/badge/Repo-MACHINE--LEARNING--PROJECTS-blue?style=flat&logo=github)](https://github.com/omkar333333/MACHINE-LEARNING-PROJECTS)
     """)
@@ -158,6 +159,26 @@ def load_flight_model():
 # ---------------------------------------------------------
 st.markdown('<div class="main-header">🤖 Machine Learning Intelligence Suite</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">Production-grade workflows covering Classification, Regression, Clustering, Benchmarking & Sensitivity Modeling.</div>', unsafe_allow_html=True)
+
+with st.expander("👔 Recruiter & Technical Interviewer Fast-Track Guide (Click to expand)", expanded=False):
+    col_r1, col_r2 = st.columns([1, 1])
+    with col_r1:
+        st.markdown("""
+        **Candidate Overview:**
+        - **Name**: Omkar Mote
+        - **Degree**: B.E. in Artificial Intelligence & Data Science (Pune, India)
+        - **Core Stack**: Python, Pandas, Scikit-Learn, XGBoost, Streamlit, SQL, Plotly
+        - **Status**: Actively seeking AI/ML Internships & Data Science roles
+        - **Portfolio**: [omkar-portfolio-live.vercel.app](https://omkar-portfolio-live.vercel.app)
+        """)
+    with col_r2:
+        st.markdown("""
+        **Key Metrics Demonstrated in this App:**
+        - 🩺 **Healthcare Diagnostics**: 96.4% cross-validation accuracy on 20,000+ patient records
+        - ⚔️ **Model Arena**: 4 algorithms evaluated in real-time with dynamic confusion matrices
+        - ✈️ **Regression**: Flight ticket fare prediction ($R^2 = 0.76$) with multi-variable inputs
+        - 🛍️ **Unsupervised**: $k=5$ silhouette-validated customer clustering
+        """)
 
 tab_diab, tab_bench, tab_flight, tab_mall, tab_eda, tab_info = st.tabs([
     "🩺 Clinical & What-If",

@@ -1,19 +1,35 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/omkar333333/MACHINE-LEARNING-PROJECTS/main/assets/avatar.jpg" width="130" style="border-radius: 50%; border: 3px solid #58A6FF; box-shadow: 0 4px 14px rgba(88, 166, 255, 0.3);" alt="Omkar Mote - Developer Mascot" />
+
 # 👋 Hi, I'm Omkar Mote
 
 ### 🚀 Aspiring Machine Learning Engineer & Data Scientist
 **Balewadi, Pune, India**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=B.E.+Artificial+Intelligence+%26+Data+Science;Building+End-to-End+Machine+Learning+Pipelines;Passionate+about+Predictive+Modeling+%26+Deep+Learning;Python+%E2%80%A2+Scikit-Learn+%E2%80%A2+Pandas+%E2%80%A2+SQL)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=B.E.+Artificial+Intelligence+%26+Data+Science;Building+End-to-End+Machine+Learning+Pipelines;Passionate+about+Predictive+Modeling+%26+Data+Science;Python+%E2%80%A2+Scikit-Learn+%E2%80%A2+Pandas+%E2%80%A2+SQL)](https://git.io/typing-svg)
 
 <p align="center">
-  <a href="https://github.com/omkar333333?tab=repositories"><img src="https://img.shields.io/badge/Repositories-7_Public-238636?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/omkar333333"><img src="https://img.shields.io/badge/GitHub_Pro-Member-8957E5?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Contact-Get_In_Touch-blue?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://omkar-portfolio-live.vercel.app"><img src="https://img.shields.io/badge/🌐_Portfolio-Live_Site-0A66C2?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://github.com/omkar333333"><img src="https://img.shields.io/badge/Status-Open_to_Internships_&_Roles-brightgreen?style=for-the-badge" /></a>
+  <a href="https://github.com/omkar333333/MACHINE-LEARNING-PROJECTS"><img src="https://img.shields.io/badge/⚡_Live_App-Streamlit_Suite-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /></a>
+  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-Direct_Contact-blue?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 </div>
+
+---
+
+> [!TIP]
+> ### 🎯 Recruiter Elevator Pitch (15-Second Overview)
+> **Omkar Mote** is an AI & Data Science Engineering student specializing in building production-grade Machine Learning workflows.
+> - **Core Stack**: Python, Scikit-Learn, XGBoost, Pandas, SQL, Streamlit, Flask, Plotly.
+> - **Featured Delivery**: Full-featured Machine Learning suite with interactive diagnostic risk gauges, what-if sensitivity simulators, and batch prediction.
+> - **Key Highlights**:
+>   - 🩺 **Healthcare Diagnostics**: 96.4% cross-validation accuracy on clinical risk classification.
+>   - ✈️ **Multivariate Regression**: Real-world flight fare prediction engine ($R^2 = 0.76$).
+>   - 🛍️ **Unsupervised Clustering**: Dynamic customer market segmentation ($k=5$ silhouette-validated).
+> - **Open for**: AI/ML Internships, Data Science roles, and Software Engineering opportunities.
 
 ---
 
@@ -21,8 +37,8 @@
 
 I am an **Artificial Intelligence & Data Science Engineering** student passionate about turning raw data into high-value intelligent applications. My development and research focus centers around exploratory data analysis, predictive statistical modeling, supervised classification/regression, clustering, and building interactive web deployment interfaces.
 
-- 🔭 **Current Focus**: End-to-end Machine Learning pipelines, model evaluation, and deployment with Streamlit and FastAPI.
-- 🧠 **Key Interests**: Predictive Modeling, Anomaly Detection, Customer Segmentation, and Generative AI.
+- 🔭 **Current Focus**: End-to-end Machine Learning pipelines, model evaluation, and deployment with Streamlit and Flask.
+- 🧠 **Key Interests**: Predictive Modeling, Anomaly Detection, Customer Segmentation, and Exploratory Data Analysis.
 - 💡 **Core Strengths**: Clean Data Preprocessing, Algorithm Optimization, Clean Code Standards.
 - 🎨 **Creative Outlets**: Digital art, character design, and manga illustration.
 
@@ -70,7 +86,7 @@ I am an **Artificial Intelligence & Data Science Engineering** student passionat
 | **🤖 Machine Learning Suite** | Comprehensive portfolio with interactive Streamlit app covering Diabetes Risk, Fraud Detection (XGBoost), Flight Pricing, and Customer Clustering. | `Python` `Scikit-Learn` `Streamlit` `XGBoost` | [View Repo](https://github.com/omkar333333/MACHINE-LEARNING-PROJECTS) |
 | **🎥 AI Video Compression Platform** | High-performance Flask app leveraging NVIDIA NVENC GPU acceleration for rapid video size reduction with minimal visual quality loss. | `Python` `Flask` `FFmpeg` `NVENC` | [View Repo](https://github.com/omkar333333/AI-Powered_Video_Compression_Platform) |
 | **🔐 Encrypted Bluetooth File Transfer** | Secure peer-to-peer data transmission across Bluetooth devices featuring cryptographic security layers. | `Python` `Sockets` `Cryptography` | [View Repo](https://github.com/omkar333333/encrypted-bluetooth-file-transfer) |
-| **🌐 Personal Portfolio Website** | Clean, responsive developer landing page highlighting technical projects, education, and career milestones. | `HTML5` `CSS3` `JavaScript` | [Live Site](https://github.com/omkar333333/omkar-portfolio-live) |
+| **🌐 Personal Portfolio Website** | Clean, responsive developer landing page highlighting technical projects, education, and career milestones. | `HTML5` `CSS3` `JavaScript` | [Live Site](https://omkar-portfolio-live.vercel.app) • [Source Code](https://github.com/omkar333333/omkar-portfolio-live) |
 
 ---
 
@@ -88,7 +104,9 @@ I am an **Artificial Intelligence & Data Science Engineering** student passionat
 ### 🤝 Let's Connect!
 
 <p align="center">
+  <a href="https://omkar-portfolio-live.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Live_Site-0A66C2?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://github.com/omkar333333"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://linkedin.com/in/your-linkedin-id"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
+
