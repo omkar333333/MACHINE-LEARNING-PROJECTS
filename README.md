@@ -1,170 +1,191 @@
-# 🤖 Machine Learning Projects
+<div align="center">
 
-Welcome to my **Machine Learning Projects** repository! 🚀
+# 🤖 Machine Learning Projects Portfolio
+**A curated, production-ready repository of Supervised & Unsupervised Machine Learning workflows, feature engineering, and interactive web applications.**
 
-This repository contains a collection of practical Machine Learning projects covering **Supervised Learning** and **Unsupervised Learning**. These projects are created to understand and implement different Machine Learning concepts using Python and popular ML libraries.
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-EB5424?style=for-the-badge)](https://xgboost.readthedocs.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+<p align="center">
+  <a href="#-interactive-web-application-streamlit">⚡ Live Interactive App</a> •
+  <a href="#-projects-matrix">📊 Project Matrix</a> •
+  <a href="#-visual-insights--evaluations">📈 Visual Insights</a> •
+  <a href="#-quickstart--installation">🚀 Quickstart</a> •
+  <a href="#-repository-structure">📁 Directory Structure</a>
+</p>
+
+</div>
 
 ---
 
-## 📚 Projects Included
+## 📌 Executive Overview
+
+This repository demonstrates the end-to-end Machine Learning lifecycle applied to diverse real-world domains including healthcare diagnostics, financial fraud detection, aviation pricing, educational analytics, and customer market segmentation.
+
+Each project adheres to rigorous data science principles:
+* **Exploratory Data Analysis (EDA)** with distribution profiling and correlation matrix analysis.
+* **Feature Engineering & Transformation** (handling class imbalance, outlier clipping, standard scaling, and categorical encoding).
+* **Model Training & Evaluation** (Random Forest, XGBoost, Logistic Regression, Decision Trees, K-Means Clustering, PCA, and t-SNE).
+* **Interactive Deployment** via a unified Streamlit dashboard (`app.py`).
+
+---
+
+## ⚡ Interactive Web Application (Streamlit)
+
+This repository includes a multi-model Streamlit application (`app.py`) allowing instant, in-browser model testing with interactive parameter tuning.
+
+```bash
+# Launch the interactive web app locally
+streamlit run app.py
+```
+
+Features included in the web app:
+* 🩺 **Diabetes Diagnostic Risk Predictor**: Real-time patient risk assessment with dynamic risk gauge and feature importance inspection.
+* 🛍️ **Customer Segmentation Explorer**: Interactive K-Means clustering with adjustable $k$ slider and 2D centroid scatter projection.
+* 🎓 **Academic Pass/Fail Predictor**: Standardized logistic regression testing student engagement metrics.
+
+---
+
+## 📊 Projects Matrix
 
 ### 🔵 Supervised Learning
 
-Supervised Learning uses labeled data to train a model and make predictions.
-
-| # | Project                           | Type                    |
-| - | --------------------------------- | ----------------------- |
-| 1 | 🩺 Diabetes Prediction            | Classification          |
-| 2 | 🎓 Student Performance Prediction | Regression / Prediction |
-| 3 | 📊 Student Performance Analysis   | Machine Learning        |
-| 4 | ✈️ Flight Ticket Price Prediction | Regression              |
-| 5 | 📝 Pass-Fail Classification       | Classification          |
+| # | Project Domain | Task | Target Metric | Primary Algorithms | Key Highlights |
+|---|:---|:---|:---|:---|:---|
+| 1 | **🩺 Diabetes Prediction** | Classification | ~96% Accuracy | Random Forest, Logistic Regression | Analyzed 100k+ clinical records; balanced HbA1c & glucose thresholds. |
+| 2 | **💳 Fraud Detection** | Classification | High Precision / Recall | XGBoost, Cross-Validation | Addressed high class imbalance on synthetic banking transactions. |
+| 3 | **✈️ Flight Price Prediction** | Regression | $R^2$ Score / RMSE | Random Forest, Extra Trees | Feature engineered departure timings, flight duration, and airline stops. |
+| 4 | **🎓 Student Exam Prediction** | Regression | $R^2$ Score | Multiple Linear Regression | Multivariate academic outcome modeling on socioeconomic factors. |
+| 5 | **📝 Pass-Fail Classification** | Classification | Binary Accuracy | L2-Regularized Logistic Regression | Feature-scaled study habits and examination cutoffs. |
 
 ### 🟢 Unsupervised Learning
 
-Unsupervised Learning finds patterns and groups in data without predefined labels.
-
-| # | Project                   | Algorithm          |
-| - | ------------------------- | ------------------ |
-| 1 | 🛍️ Customer Segmentation | K-Means Clustering |
-
----
-
-## 🛠️ Technologies Used
-
-* 🐍 Python
-* 📊 Pandas
-* 🔢 NumPy
-* 📈 Matplotlib
-* 🎨 Seaborn
-* 🤖 Scikit-learn
-* 📓 Jupyter Notebook
+| # | Project Domain | Task | Objective | Algorithm / Method |
+|---|:---|:---|:---|:---|
+| 1 | **🛍️ Customer Segmentation** | Clustering | Group mall shoppers into 5 distinct behavioral spending personas | K-Means with Elbow Method & Silhouette Analysis |
+| 2 | **🧬 Dimensionality Reduction** | Feature Compression & Manifold Learning | Compress high-dimensional datasets while preserving global & local variance | Principal Component Analysis (PCA) & t-SNE |
 
 ---
 
-## 📂 Repository Structure
+## 📈 Visual Insights & Evaluations
 
-```text
-MACHINE-LEARNING-PROJECTS/
-│
-├── SUPERVISED-LEARNING/
-│   │
-│   ├── DiabetesPrediction/
-│   ├── ML_PROJECT2/
-│   ├── ML_Basic_Project/
-│   ├── airline_price_prediction/
-│   └── ml-pass-fail-classification/
-│
-└── UNSUPERVISED-LEARNING/
-    │
-    └── Customer-Segmentation-Using-KMeans/
-```
+<div align="center">
+
+### Customer Segmentation Clusters ($k=5$)
+![Customer Segmentation Clusters](assets/customer_clusters.png)
+
+### Diabetes Feature Importance Ranking (Random Forest)
+![Diabetes Feature Importance](assets/diabetes_feature_importance.png)
+
+</div>
 
 ---
 
-## 🎯 Learning Objectives
+## 🚀 Quickstart & Installation
 
-Through these projects, I am learning and practicing:
-
-* Data preprocessing
-* Exploratory Data Analysis (EDA)
-* Data visualization
-* Feature selection
-* Model training
-* Classification
-* Regression
-* Clustering
-* Model evaluation
-* Machine Learning workflow
-* Working with real-world datasets
-
----
-
-## ⚙️ Installation
-
-Clone this repository:
-
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/MACHINE-LEARNING-PROJECTS.git
-```
-
-Navigate to the project folder:
-
-```bash
+git clone https://github.com/omkar333333/MACHINE-LEARNING-PROJECTS.git
 cd MACHINE-LEARNING-PROJECTS
 ```
 
-Install the required Python libraries:
-
+### 2. Create and Activate a Virtual Environment
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn jupyter
+# Windows (PowerShell)
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+# Linux / macOS
+python3 -m venv venv
+source venv/bin/activate
 ```
 
-Start Jupyter Notebook:
+### 3. Install All Dependencies
+```bash
+pip install -r requirements.txt
+```
 
+### 4. Run the Streamlit Application
+```bash
+streamlit run app.py
+```
+
+### 5. Or Explore Jupyter Notebooks
 ```bash
 jupyter notebook
 ```
 
 ---
 
-## 🚀 How to Use
-
-1. Clone the repository.
-2. Open the project you want to explore.
-3. Open the `.ipynb` notebook.
-4. Install the required dependencies.
-5. Run the notebook cells step by step.
-6. Explore the data, model, predictions, and results.
-
----
-
-## 📊 Machine Learning Workflow
+## 📁 Repository Structure
 
 ```text
-Dataset
-   ↓
-Data Cleaning
-   ↓
-Data Preprocessing
-   ↓
-Exploratory Data Analysis
-   ↓
-Feature Selection
-   ↓
-Model Training
-   ↓
-Model Evaluation
-   ↓
-Prediction / Clustering
+MACHINE-LEARNING-PROJECTS/
+│
+├── SUPERVISED-LEARNING/
+│   ├── Diabetes-Prediction/
+│   │   ├── Diabetes Prediction.ipynb
+│   │   ├── diabetes_prediction_dataset.csv
+│   │   └── README.md
+│   ├── Fraud-Detection-XGBoost/
+│   │   ├── xgboost.ipynb
+│   │   ├── cross validation model evaluation method.ipynb
+│   │   ├── synthetic_fraud_dataset.csv
+│   │   └── main.py
+│   ├── Flight-Price-Prediction/
+│   │   ├── Flight Ticket Price Prediction System.ipynb
+│   │   ├── airlines_flights_data.csv
+│   │   └── README.md
+│   ├── Pass-Fail-Classification/
+│   │   ├── ml-pass-fail-classification.ipynb
+│   │   ├── Pass-Fail Data.csv
+│   │   └── README.md
+│   ├── Student-Performance-Prediction/
+│   │   ├── ml_project2.ipynb
+│   │   ├── student_perf.csv
+│   │   └── README.md
+│   └── Student-Performance-Factors/
+│       ├── ML-SKLEARN.ipynb
+│       ├── StudentPerformanceFactors.csv
+│       └── README.md
+│
+├── UNSUPERVISED-LEARNING/
+│   ├── Customer-Segmentation-KMeans/
+│   │   ├── sample.ipynb
+│   │   ├── Mall_Customers.csv
+│   │   └── README.md
+│   └── Dimensionality-Reduction-PCA-tSNE/
+│       ├── pca.ipynb
+│       ├── t-sne.ipynb
+│       └── readme.md
+│
+├── assets/
+│   ├── customer_clusters.png
+│   └── diabetes_feature_importance.png
+│
+├── app.py                     # Interactive Streamlit Web Portfolio Application
+├── requirements.txt           # Unified dependencies
+└── README.md                  # Master repository documentation
 ```
-
----
-
-## 📌 Future Improvements
-
-* Add more Machine Learning projects
-* Improve model accuracy
-* Add hyperparameter tuning
-* Add model comparison
-* Build interactive ML applications
-* Deploy selected projects as web applications
-* Add detailed project documentation
 
 ---
 
 ## 👨‍💻 Author
 
-**Omkar Mote**
+**Omkar Mote**  
+*AI & Data Science Engineering Student*  
+📍 Balewadi, Pune, India  
 
-🎓 Artificial Intelligence & Data Science Engineering Student
-
-💻 Interested in Machine Learning, Data Science, and Software Development.
+* 🌐 **GitHub**: [@omkar333333](https://github.com/omkar333333)
+* 💼 **Portfolio**: [omkar-portfolio-live](https://github.com/omkar333333/omkar-portfolio-live)
 
 ---
 
-## ⭐ Support
+## ⭐ Support & Contributions
 
-If you find this repository useful, consider giving it a ⭐ on GitHub!
-
-**Happy Learning & Building! 🚀🤖**
+Contributions, bug reports, and suggestions are welcome! Feel free to open an issue or submit a pull request.  
+If you find this repository valuable, please consider giving it a ⭐!
